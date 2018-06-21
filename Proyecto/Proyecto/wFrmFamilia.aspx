@@ -70,7 +70,7 @@
                      <!-- normal -->
                         <div class="item active">
                             <div class="bottom-2-top">
-                    <div class="img"><video src="" autoplay="autoplay" loop="loop" preload="auto" width="720" height="450" muted="muted" ></video></div>
+                    <div class="img"><video src="wFrmFamilia.aspx.cs" autoplay="autoplay" loop="loop" preload="auto" width="720" height="450" muted="muted" ></video></div>
                             <div class="info">
                                 <div class="pull-right styl-hdn">
                                     <h3>En el video se muestran algunas palabras de Personas <h2>Mamá</h2><h2>Papá</h2><h2>Tío</h2><h2>Tía</h2><h2>Trabajador</h2></h3>
