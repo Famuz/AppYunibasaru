@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TiendaOnlineModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TiendaOnlineEntities5" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Articulo" EntityType="TiendaOnlineModel.Articulo" />
+    <EntitySet Name="ArticuloPromocion" EntityType="TiendaOnlineModel.ArticuloPromocion" />
+    <EntitySet Name="ArticuloProveedor" EntityType="TiendaOnlineModel.ArticuloProveedor" />
+    <EntitySet Name="Categoria" EntityType="TiendaOnlineModel.Categoria" />
+    <EntitySet Name="Cliente" EntityType="TiendaOnlineModel.Cliente" />
+    <EntitySet Name="Factura" EntityType="TiendaOnlineModel.Factura" />
+    <EntitySet Name="FacturaDetalle" EntityType="TiendaOnlineModel.FacturaDetalle" />
+    <EntitySet Name="Proveedor" EntityType="TiendaOnlineModel.Proveedor" />
+    <EntitySet Name="sysdiagrams" EntityType="TiendaOnlineModel.sysdiagrams" />
+    <AssociationSet Name="FK_Articulo_Categoria" Association="TiendaOnlineModel.FK_Articulo_Categoria">
+      <End Role="Categoria" EntitySet="Categoria" />
+      <End Role="Articulo" EntitySet="Articulo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloPromocion_Articulo" Association="TiendaOnlineModel.FK_ArticuloPromocion_Articulo">
+      <End Role="Articulo" EntitySet="Articulo" />
+      <End Role="ArticuloPromocion" EntitySet="ArticuloPromocion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloProveedor_Articulo" Association="TiendaOnlineModel.FK_ArticuloProveedor_Articulo">
+      <End Role="Articulo" EntitySet="Articulo" />
+      <End Role="ArticuloProveedor" EntitySet="ArticuloProveedor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloPromocion_Cliente" Association="TiendaOnlineModel.FK_ArticuloPromocion_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="ArticuloPromocion" EntitySet="ArticuloPromocion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloProveedor_Proveedor" Association="TiendaOnlineModel.FK_ArticuloProveedor_Proveedor">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="ArticuloProveedor" EntitySet="ArticuloProveedor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FacturaDetalle_ArticuloProveedor" Association="TiendaOnlineModel.FK_FacturaDetalle_ArticuloProveedor">
+      <End Role="ArticuloProveedor" EntitySet="ArticuloProveedor" />
+      <End Role="FacturaDetalle" EntitySet="FacturaDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_Cliente" Association="TiendaOnlineModel.FK_Factura_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FacturaDetalle_Factura" Association="TiendaOnlineModel.FK_FacturaDetalle_Factura">
+      <End Role="Factura" EntitySet="Factura" />
+      <End Role="FacturaDetalle" EntitySet="FacturaDetalle" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Articulo">
+    <Key>
+      <PropertyRef Name="CodigoArticulo" />
+    </Key>
+    <Property Name="CodigoArticulo" Type="Int32" Nullable="false" />
+    <Property Name="CodigoCategoria" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CodigoBarras" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Imagen" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="true" />
+    <Property Name="UsuarioRegistro" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Promocion" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Categoria" Relationship="TiendaOnlineModel.FK_Articulo_Categoria" FromRole="Articulo" ToRole="Categoria" />
+    <NavigationProperty Name="ArticuloPromocion" Relationship="TiendaOnlineModel.FK_ArticuloPromocion_Articulo" FromRole="Articulo" ToRole="ArticuloPromocion" />
+    <NavigationProperty Name="ArticuloProveedor" Relationship="TiendaOnlineModel.FK_ArticuloProveedor_Articulo" FromRole="Articulo" ToRole="ArticuloProveedor" />
+  </EntityType>
+  <EntityType Name="ArticuloPromocion">
+    <Key>
+      <PropertyRef Name="CodigoArticulo" />
+      <PropertyRef Name="CodigoCliente" />
+    </Key>
+    <Property Name="CodigoArticulo" Type="Int32" Nullable="false" />
+    <Property Name="CodigoCliente" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaNotificacion" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Articulo" Relationship="TiendaOnlineModel.FK_ArticuloPromocion_Articulo" FromRole="ArticuloPromocion" ToRole="Articulo" />
+    <NavigationProperty Name="Cliente" Relationship="TiendaOnlineModel.FK_ArticuloPromocion_Cliente" FromRole="ArticuloPromocion" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="ArticuloProveedor">
+    <Key>
+      <PropertyRef Name="CodigoProveedor" />
+      <PropertyRef Name="CodigoArticulo" />
+    </Key>
+    <Property Name="CodigoProveedor" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CodigoArticulo" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Costo" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Cantidad" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CostoEnvio" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="PrecioFinal" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="UsuarioRegistro" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Articulo" Relationship="TiendaOnlineModel.FK_ArticuloProveedor_Articulo" FromRole="ArticuloProveedor" ToRole="Articulo" />
+    <NavigationProperty Name="Proveedor" Relationship="TiendaOnlineModel.FK_ArticuloProveedor_Proveedor" FromRole="ArticuloProveedor" ToRole="Proveedor" />
+    <NavigationProperty Name="FacturaDetalle" Relationship="TiendaOnlineModel.FK_FacturaDetalle_ArticuloProveedor" FromRole="ArticuloProveedor" ToRole="FacturaDetalle" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="CodigoCategoria" />
+    </Key>
+    <Property Name="CodigoCategoria" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioRegistro" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Articulo" Relationship="TiendaOnlineModel.FK_Articulo_Categoria" FromRole="Categoria" ToRole="Articulo" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CodigoCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoCliente" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="NombreCliente" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PrimerApellido" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SegundoApellido" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CedulaCliente" Type="Int32" Nullable="false" />
+    <Property Name="Telefono" Type="Int32" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="Promocion" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioRegistro" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ArticuloPromocion" Relationship="TiendaOnlineModel.FK_ArticuloPromocion_Cliente" FromRole="Cliente" ToRole="ArticuloPromocion" />
+    <NavigationProperty Name="Factura" Relationship="TiendaOnlineModel.FK_Factura_Cliente" FromRole="Cliente" ToRole="Factura" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="CodigoFactura" />
+    </Key>
+    <Property Name="CodigoFactura" Type="Int32" Nullable="false" />
+    <Property Name="CodigoCliente" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaPedido" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Cliente" Relationship="TiendaOnlineModel.FK_Factura_Cliente" FromRole="Factura" ToRole="Cliente" />
+    <NavigationProperty Name="FacturaDetalle" Relationship="TiendaOnlineModel.FK_FacturaDetalle_Factura" FromRole="Factura" ToRole="FacturaDetalle" />
+  </EntityType>
+  <EntityType Name="FacturaDetalle">
+    <Key>
+      <PropertyRef Name="CodigoFactura" />
+      <PropertyRef Name="CodigoProveedor" />
+      <PropertyRef Name="CodigoArticulo" />
+    </Key>
+    <Property Name="CodigoFactura" Type="Int32" Nullable="false" />
+    <Property Name="CodigoProveedor" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CodigoArticulo" Type="Int32" Nullable="false" />
+    <Property Name="NumDetalle" Type="Int32" />
+    <Property Name="SubtotalCompra" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="TotalCompra" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <NavigationProperty Name="ArticuloProveedor" Relationship="TiendaOnlineModel.FK_FacturaDetalle_ArticuloProveedor" FromRole="FacturaDetalle" ToRole="ArticuloProveedor" />
+    <NavigationProperty Name="Factura" Relationship="TiendaOnlineModel.FK_FacturaDetalle_Factura" FromRole="FacturaDetalle" ToRole="Factura" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="CodigoProveedor" />
+    </Key>
+    <Property Name="IdProveedor" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoProveedor" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Telefono" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SitioWeb" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Estado" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioRegistro" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ArticuloProveedor" Relationship="TiendaOnlineModel.FK_ArticuloProveedor_Proveedor" FromRole="Proveedor" ToRole="ArticuloProveedor" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Articulo_Categoria">
+    <End Role="Categoria" Type="TiendaOnlineModel.Categoria" Multiplicity="1" />
+    <End Role="Articulo" Type="TiendaOnlineModel.Articulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="CodigoCategoria" />
+      </Principal>
+      <Dependent Role="Articulo">
+        <PropertyRef Name="CodigoCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloPromocion_Articulo">
+    <End Role="Articulo" Type="TiendaOnlineModel.Articulo" Multiplicity="1" />
+    <End Role="ArticuloPromocion" Type="TiendaOnlineModel.ArticuloPromocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articulo">
+        <PropertyRef Name="CodigoArticulo" />
+      </Principal>
+      <Dependent Role="ArticuloPromocion">
+        <PropertyRef Name="CodigoArticulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloProveedor_Articulo">
+    <End Role="Articulo" Type="TiendaOnlineModel.Articulo" Multiplicity="1" />
+    <End Role="ArticuloProveedor" Type="TiendaOnlineModel.ArticuloProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articulo">
+        <PropertyRef Name="CodigoArticulo" />
+      </Principal>
+      <Dependent Role="ArticuloProveedor">
+        <PropertyRef Name="CodigoArticulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloPromocion_Cliente">
+    <End Role="Cliente" Type="TiendaOnlineModel.Cliente" Multiplicity="1" />
+    <End Role="ArticuloPromocion" Type="TiendaOnlineModel.ArticuloPromocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="CodigoCliente" />
+      </Principal>
+      <Dependent Role="ArticuloPromocion">
+        <PropertyRef Name="CodigoCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloProveedor_Proveedor">
+    <End Role="Proveedor" Type="TiendaOnlineModel.Proveedor" Multiplicity="1" />
+    <End Role="ArticuloProveedor" Type="TiendaOnlineModel.ArticuloProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="CodigoProveedor" />
+      </Principal>
+      <Dependent Role="ArticuloProveedor">
+        <PropertyRef Name="CodigoProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FacturaDetalle_ArticuloProveedor">
+    <End Role="ArticuloProveedor" Type="TiendaOnlineModel.ArticuloProveedor" Multiplicity="1" />
+    <End Role="FacturaDetalle" Type="TiendaOnlineModel.FacturaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ArticuloProveedor">
+        <PropertyRef Name="CodigoProveedor" />
+        <PropertyRef Name="CodigoArticulo" />
+      </Principal>
+      <Dependent Role="FacturaDetalle">
+        <PropertyRef Name="CodigoProveedor" />
+        <PropertyRef Name="CodigoArticulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Factura_Cliente">
+    <End Role="Cliente" Type="TiendaOnlineModel.Cliente" Multiplicity="1" />
+    <End Role="Factura" Type="TiendaOnlineModel.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="CodigoCliente" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="CodigoCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FacturaDetalle_Factura">
+    <End Role="Factura" Type="TiendaOnlineModel.Factura" Multiplicity="1" />
+    <End Role="FacturaDetalle" Type="TiendaOnlineModel.FacturaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Factura">
+        <PropertyRef Name="CodigoFactura" />
+      </Principal>
+      <Dependent Role="FacturaDetalle">
+        <PropertyRef Name="CodigoFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

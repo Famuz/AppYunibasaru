@@ -1,0 +1,338 @@
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Proyecto.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Proyecto.pdb
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\EntityFramework.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\System.Web.Providers.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\WebGrease.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\EntityFramework.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+c:\users\personal\documents\visual studio 2012\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\System.Web.Http.dll
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\System.Web.Http.xml
+C:\Users\Personal\Documents\Visual Studio 2012\Projects\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll.config
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.pdb
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Providers.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\WebGrease.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+D:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll.config
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.pdb
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Providers.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\WebGrease.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+E:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.pdb
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Providers.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\WebGrease.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+G:\Juan Universidad\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll.config
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.pdb
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Providers.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\WebGrease.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csprojResolveAssemblyReference.cache
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+F:\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll.config
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Proyecto.pdb
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Providers.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\WebGrease.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+C:\Users\Personal\Documents\Mis Documentos JUAN\Universidad UMCA\1 Cuatrimestre 2017\Programacion Vl\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Proyecto.dll.config
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Proyecto.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Proyecto.pdb
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Antlr3.Runtime.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\EntityFramework.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\EntityFramework.SqlServer.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Newtonsoft.Json.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Net.Http.Formatting.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Web.Http.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Web.Http.WebHost.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Web.Optimization.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Web.Providers.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\WebGrease.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\EntityFramework.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\EntityFramework.SqlServer.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Newtonsoft.Json.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Net.Http.Formatting.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Web.Http.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\System.Web.Http.WebHost.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.Core.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\es\System.Web.Providers.resources.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CopyComplete
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.dll
+C:\Users\Personal\Documents\Visual Studio 2017\Projects\Proyecto\Proyecto\obj\Debug\Proyecto.pdb

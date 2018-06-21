@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TiendaOnlineModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TiendaOnlineModelStoreContainer">
+    <EntitySet Name="Articulo" EntityType="TiendaOnlineModel.Store.Articulo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ArticuloPromocion" EntityType="TiendaOnlineModel.Store.ArticuloPromocion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ArticuloProveedor" EntityType="TiendaOnlineModel.Store.ArticuloProveedor" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Categoria" EntityType="TiendaOnlineModel.Store.Categoria" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Cliente" EntityType="TiendaOnlineModel.Store.Cliente" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Factura" EntityType="TiendaOnlineModel.Store.Factura" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="FacturaDetalle" EntityType="TiendaOnlineModel.Store.FacturaDetalle" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Proveedor" EntityType="TiendaOnlineModel.Store.Proveedor" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="TiendaOnlineModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Articulo_Categoria" Association="TiendaOnlineModel.Store.FK_Articulo_Categoria">
+      <End Role="Categoria" EntitySet="Categoria" />
+      <End Role="Articulo" EntitySet="Articulo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloPromocion_Articulo" Association="TiendaOnlineModel.Store.FK_ArticuloPromocion_Articulo">
+      <End Role="Articulo" EntitySet="Articulo" />
+      <End Role="ArticuloPromocion" EntitySet="ArticuloPromocion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloPromocion_Cliente" Association="TiendaOnlineModel.Store.FK_ArticuloPromocion_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="ArticuloPromocion" EntitySet="ArticuloPromocion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloProveedor_Articulo" Association="TiendaOnlineModel.Store.FK_ArticuloProveedor_Articulo">
+      <End Role="Articulo" EntitySet="Articulo" />
+      <End Role="ArticuloProveedor" EntitySet="ArticuloProveedor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ArticuloProveedor_Proveedor" Association="TiendaOnlineModel.Store.FK_ArticuloProveedor_Proveedor">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="ArticuloProveedor" EntitySet="ArticuloProveedor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Factura_Cliente" Association="TiendaOnlineModel.Store.FK_Factura_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Factura" EntitySet="Factura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FacturaDetalle_ArticuloProveedor" Association="TiendaOnlineModel.Store.FK_FacturaDetalle_ArticuloProveedor">
+      <End Role="ArticuloProveedor" EntitySet="ArticuloProveedor" />
+      <End Role="FacturaDetalle" EntitySet="FacturaDetalle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FacturaDetalle_Factura" Association="TiendaOnlineModel.Store.FK_FacturaDetalle_Factura">
+      <End Role="Factura" EntitySet="Factura" />
+      <End Role="FacturaDetalle" EntitySet="FacturaDetalle" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Articulo">
+    <Key>
+      <PropertyRef Name="CodigoArticulo" />
+    </Key>
+    <Property Name="CodigoArticulo" Type="int" Nullable="false" />
+    <Property Name="CodigoCategoria" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="CodigoBarras" Type="varchar" MaxLength="50" />
+    <Property Name="Imagen" Type="image" />
+    <Property Name="Estado" Type="char" Nullable="false" MaxLength="10" />
+    <Property Name="UsuarioRegistro" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="UsuarioModificacion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" Nullable="false" />
+    <Property Name="Promocion" Type="char" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="ArticuloPromocion">
+    <Key>
+      <PropertyRef Name="CodigoArticulo" />
+      <PropertyRef Name="CodigoCliente" />
+    </Key>
+    <Property Name="CodigoArticulo" Type="int" Nullable="false" />
+    <Property Name="CodigoCliente" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FechaNotificacion" Type="char" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="ArticuloProveedor">
+    <Key>
+      <PropertyRef Name="CodigoProveedor" />
+      <PropertyRef Name="CodigoArticulo" />
+    </Key>
+    <Property Name="CodigoProveedor" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CodigoArticulo" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Costo" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="Cantidad" Type="numeric" Nullable="false" />
+    <Property Name="CostoEnvio" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="PrecioFinal" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="UsuarioRegistro" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="UsuarioModificacion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="CodigoCategoria" />
+    </Key>
+    <Property Name="CodigoCategoria" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Estado" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="UsuarioRegistro" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="UsuarioModificacion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="CodigoCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoCliente" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NombreCliente" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PrimerApellido" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SegundoApellido" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CedulaCliente" Type="int" Nullable="false" />
+    <Property Name="Telefono" Type="int" Nullable="false" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Estado" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="Promocion" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="UsuarioRegistro" Type="varchar" MaxLength="50" />
+    <Property Name="UsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="FechaRegistro" Type="datetime" />
+    <Property Name="FechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Factura">
+    <Key>
+      <PropertyRef Name="CodigoFactura" />
+    </Key>
+    <Property Name="CodigoFactura" Type="int" Nullable="false" />
+    <Property Name="CodigoCliente" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FechaPedido" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FacturaDetalle">
+    <Key>
+      <PropertyRef Name="CodigoFactura" />
+      <PropertyRef Name="CodigoProveedor" />
+      <PropertyRef Name="CodigoArticulo" />
+    </Key>
+    <Property Name="CodigoFactura" Type="int" Nullable="false" />
+    <Property Name="CodigoProveedor" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CodigoArticulo" Type="int" Nullable="false" />
+    <Property Name="NumDetalle" Type="int" />
+    <Property Name="SubtotalCompra" Type="decimal" Nullable="false" Scale="2" />
+    <Property Name="TotalCompra" Type="decimal" Nullable="false" Scale="2" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="CodigoProveedor" />
+    </Key>
+    <Property Name="IdProveedor" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CodigoProveedor" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Telefono" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SitioWeb" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Estado" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="UsuarioRegistro" Type="varchar" MaxLength="50" />
+    <Property Name="UsuarioModificacion" Type="varchar" MaxLength="50" />
+    <Property Name="FechaRegistro" Type="datetime" />
+    <Property Name="FechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Articulo_Categoria">
+    <End Role="Categoria" Type="TiendaOnlineModel.Store.Categoria" Multiplicity="1" />
+    <End Role="Articulo" Type="TiendaOnlineModel.Store.Articulo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="CodigoCategoria" />
+      </Principal>
+      <Dependent Role="Articulo">
+        <PropertyRef Name="CodigoCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloPromocion_Articulo">
+    <End Role="Articulo" Type="TiendaOnlineModel.Store.Articulo" Multiplicity="1" />
+    <End Role="ArticuloPromocion" Type="TiendaOnlineModel.Store.ArticuloPromocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articulo">
+        <PropertyRef Name="CodigoArticulo" />
+      </Principal>
+      <Dependent Role="ArticuloPromocion">
+        <PropertyRef Name="CodigoArticulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloPromocion_Cliente">
+    <End Role="Cliente" Type="TiendaOnlineModel.Store.Cliente" Multiplicity="1" />
+    <End Role="ArticuloPromocion" Type="TiendaOnlineModel.Store.ArticuloPromocion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="CodigoCliente" />
+      </Principal>
+      <Dependent Role="ArticuloPromocion">
+        <PropertyRef Name="CodigoCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloProveedor_Articulo">
+    <End Role="Articulo" Type="TiendaOnlineModel.Store.Articulo" Multiplicity="1" />
+    <End Role="ArticuloProveedor" Type="TiendaOnlineModel.Store.ArticuloProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articulo">
+        <PropertyRef Name="CodigoArticulo" />
+      </Principal>
+      <Dependent Role="ArticuloProveedor">
+        <PropertyRef Name="CodigoArticulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ArticuloProveedor_Proveedor">
+    <End Role="Proveedor" Type="TiendaOnlineModel.Store.Proveedor" Multiplicity="1" />
+    <End Role="ArticuloProveedor" Type="TiendaOnlineModel.Store.ArticuloProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="CodigoProveedor" />
+      </Principal>
+      <Dependent Role="ArticuloProveedor">
+        <PropertyRef Name="CodigoProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Factura_Cliente">
+    <End Role="Cliente" Type="TiendaOnlineModel.Store.Cliente" Multiplicity="1" />
+    <End Role="Factura" Type="TiendaOnlineModel.Store.Factura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="CodigoCliente" />
+      </Principal>
+      <Dependent Role="Factura">
+        <PropertyRef Name="CodigoCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FacturaDetalle_ArticuloProveedor">
+    <End Role="ArticuloProveedor" Type="TiendaOnlineModel.Store.ArticuloProveedor" Multiplicity="1" />
+    <End Role="FacturaDetalle" Type="TiendaOnlineModel.Store.FacturaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ArticuloProveedor">
+        <PropertyRef Name="CodigoProveedor" />
+        <PropertyRef Name="CodigoArticulo" />
+      </Principal>
+      <Dependent Role="FacturaDetalle">
+        <PropertyRef Name="CodigoProveedor" />
+        <PropertyRef Name="CodigoArticulo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FacturaDetalle_Factura">
+    <End Role="Factura" Type="TiendaOnlineModel.Store.Factura" Multiplicity="1" />
+    <End Role="FacturaDetalle" Type="TiendaOnlineModel.Store.FacturaDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Factura">
+        <PropertyRef Name="CodigoFactura" />
+      </Principal>
+      <Dependent Role="FacturaDetalle">
+        <PropertyRef Name="CodigoFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
